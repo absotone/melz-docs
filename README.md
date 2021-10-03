@@ -1,7 +1,10 @@
-# melz-documentation
+# melz-docs
 Contains Usage and Examples of all methods of the melz library.
 
 # Getting Started
+
+## Installation
+`pip install absotone-melz`
 
 
 ## Linear Regression
