@@ -28,6 +28,6 @@ import importlib
 nb = importlib.import_module("NaiveBayes")
 
 # X - Features, y = Labels
-classifier = importlib.import_module("absotone-melz.LogisticRegression")
+classifier = nb.NaiveBayes(X,y)
 ```
 
