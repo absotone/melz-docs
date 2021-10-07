@@ -7,7 +7,7 @@ Contains Usage and Examples of all methods of the melz library.
 `pip install absotone-melz`
 
 
-## Linear Regression
+### Linear Regression
 ```py
 import importlib
 lr = importlib.import_module("absotone-melz.LinearRegression")
@@ -16,7 +16,7 @@ lr = importlib.import_module("absotone-melz.LinearRegression")
 regressor = lr.LinearRegression(X,y)
 ```
 
-## Logistic Regression
+### Logistic Regression
 ```py
 import importlib
 lr = importlib.import_module("absotone-melz.LogisticRegression")
@@ -25,7 +25,7 @@ lr = importlib.import_module("absotone-melz.LogisticRegression")
 classifier = lr.LogisticRegression(X,y)
 ```
 
-## Naive Bayes
+### Naive Bayes
 ```py
 import importlib
 nb = importlib.import_module("NaiveBayes")
@@ -33,4 +33,10 @@ nb = importlib.import_module("NaiveBayes")
 # X - Features, y = Labels
 classifier = nb.NaiveBayes(X,y)
 ```
+
+# Usage
+
+Check out [Examples](https://github.com/absotone/melz-docs/tree/main/Examples) for sample usage and how you can fit models to your datasets.
+
+
 
